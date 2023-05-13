@@ -15,7 +15,9 @@ video {
 
 .intro {
     text-align: center;
+    color:aliceblue;
     font-family: 'roboto';
+    text-shadow: 0 5px 15px blue;
 }
 
 .nav-wrapper {
@@ -31,16 +33,25 @@ video {
 button:hover {
     cursor: pointer;
     color: rgb(21, 27, 142);
-    box-shadow: 0 5px 15px rgba(45, 14, 184, 0.3);
+    box-shadow: 0 5px 15px rgba(18, 16, 140, 0.8);
     z-index: 20px;
 }
 
-
-
 button {
-    border-radius: 4px;
-    background-color: rgb(122, 110, 187);
+    border-radius: 30px;
+    width: 200px;
+    border-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    background-color: #0a788b53;
     margin-bottom: 10px;
     padding: 20px;
-    color: whitesmoke;
+}
+
+.motto {
+    padding: 380px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    opacity: 0.7;
 }
