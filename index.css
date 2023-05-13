@@ -3,7 +3,28 @@ html {
     width: 100%;
   }
 
-  .header-wrapper {
-    list-style: none;
-    font-family: 'roboto', sans-serif;
-  }
+.intro {
+    text-align: center;
+    font-family: 'roboto';
+}
+
+.nav-wrapper {
+    text-align: center;
+}
+
+.nav-lis {
+    display: inline;
+    text-align: center;
+    margin: 30px;
+    color: rgb(38, 0, 255);
+}
+
+.nav-lis:hover {
+    cursor: pointer;
+    background-color: black;
+    color:rgb(121, 224, 224);
+}
+
+.head {
+    background-color: rgb(121, 224, 224);
+}
