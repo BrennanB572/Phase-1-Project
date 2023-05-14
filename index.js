@@ -1,5 +1,5 @@
 
-function renderOneHotel(hotel){
+ function renderOneHotel(hotel){
     let hotelCard = document.createElement('li')
     hotelCard.className = 'hotelcard'
     hotelCard.innerHTML =`
@@ -17,7 +17,14 @@ function renderOneHotel(hotel){
     document.querySelector('#hotels').appendChild(hotelCard)
 }
 
+function getHotels(){
+  fetch('http://localhost:3000/hotels')
+  .then(res => res.json())
+  .then(hotels => hotels.forEach(hotel => renderOneHotel(hotel)))
+}
+
 function initialize(){
-    hotelData.forEach(hotel => renderOneHotel(hotel))
+  getHotels()
+   hotelData.forEach(hotel => renderOneHotel(hotel))
 }
 initialize()
