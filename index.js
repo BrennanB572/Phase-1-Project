@@ -1,16 +1,22 @@
-// 1. Declaring variables 
 
-const themeparks = document.querySelector('#themeparks');
-const restaurants = document.querySelector('#restaurants');
-const hotels = document.querySelector('#hotels');
+function renderOneHotel(hotel){
+    let hotelCard = document.createElement('li')
+    hotelCard.className = 'card'
+    hotelCard.innerHTML =`
+    <img src="${hotel.imageURL}">
+    <div class="content">
+    <h4>${hotel.name}</h4>
+    <p>${hotel.address}</p>
+    <p>${hotel.promo}</p>
+    <p>
+      Likes:<span class="amount-of-likes">${hotel.likes}</span>
+    </p>
+    <p>${hotel.address}</p>
+    `
+    document.querySelector('#hotels').appendChild(hotelCard)
+}
 
-// 2. DOM manipulation for themeparks
-
-
-
-
-// 3. DOM manipulation for restaurants
-
-
-
-// 4. DOM manipulation for hotels
+function initialize(){
+    hotelData.forEach(hotel => renderOneHotel(hotel))
+}
+initialize()

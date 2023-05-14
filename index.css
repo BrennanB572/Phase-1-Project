@@ -30,14 +30,14 @@ video {
     margin: 30px;
 }
 
-button:hover {
+.nav-btn:hover {
     cursor: pointer;
     color: rgb(21, 27, 142);
     box-shadow: 0 5px 15px rgba(18, 16, 140, 0.8);
     z-index: 20px;
 }
 
-button {
+.nav-btn {
     border-radius: 30px;
     width: 200px;
     border-style: none;
