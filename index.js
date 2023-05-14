@@ -1,4 +1,9 @@
-
+document.querySelector('#hotel-filler').addEventListener('submit', handleSubmit)
+ 
+ 
+ 
+ 
+ 
  function renderOneHotel(hotel){
     let hotelCard = document.createElement('li')
     hotelCard.className = 'hotelcard'
