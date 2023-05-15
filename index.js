@@ -27,8 +27,7 @@ function renderOneHotel(hotel){
     <p>${hotel.address}</p>
     <p>${hotel.promo}</p>
     <button id='remove'>remove</button>
-    </div>
-    `
+    </div>`
     hotelCard.querySelector('#remove').addEventListener('click', () => {
       hotelCard.remove()
       deleteHotel(hotel.id)
