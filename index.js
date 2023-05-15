@@ -1,4 +1,8 @@
+// event listener for the submit button
+
 document.querySelector('#hotel-filler').addEventListener('submit', handleSubmit)
+
+// event handler for submit button to process the name, imageurl, address, and promo
 
 function handleSubmit(event){
   event.preventDefault()
@@ -10,6 +14,8 @@ function handleSubmit(event){
   }
   renderOneHotel(hotelObj)
 }
+
+// function renderOneHotel to populate changes to the DOM
 
 function renderOneHotel(hotel){
     let hotelCard = document.createElement('li')
@@ -31,11 +37,15 @@ function renderOneHotel(hotel){
     document.querySelector('#hotels').appendChild(hotelCard)
 }
 
+// Fetch GET request to the local host/hotels to render each hotel location on the server
+
 function getHotels(){
   fetch('http://localhost:3000/hotels')
   .then(res => res.json())
   .then(hotels => hotels.forEach(hotel => renderOneHotel(hotel)))
 }
+
+// submit handler/communication and POST request to db.json file and also using json stringify to populate into the body of the page
 
 function submitHotel(hotelObj){
   fetch('http://localhost:3000/hotels',{
@@ -48,6 +58,8 @@ function submitHotel(hotelObj){
   .then(res => res.json())
 }
 
+// delete handler/communication and DELETE method used. No body used because we aren't posting anything to the DOM, we are just 'removing'
+
 function deleteHotel(id){
   fetch(`http://localhost:3000/hotels/${id}`,{
     method: 'DELETE',
@@ -58,8 +70,10 @@ function deleteHotel(id){
   .then(res => res.json())
 }
 
-function initialize(){
+// initializer to return all hotels
+
+function initializer(){
   getHotels()
    hotelData.forEach(hotel => renderOneHotel(hotel))
 }
-initialize()
+initializer()
