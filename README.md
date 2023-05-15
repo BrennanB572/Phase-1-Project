@@ -29,3 +29,33 @@ No Installation is needed. You can access this website in the link below for qui
 * 8: Please email me at brennanb572@gmail.com if you have any questions and I'll be happy to assist!
 * 9: Thank you for using Vacationeer and remember to stay hydrated this summer!
 
+## Help
+
+Contact me @ brennanb572@gmail.com and include a subject with keyword 'help' and I'll be quick to respond.
+
+## Authors
+
+Brennan Bradley 
+Email: Brennanb572@gmail.com
+Availability: 24/7. Message me any time!
+
+## Version History
+
+* 0.1 
+ * Initial Release
+
+## License
+
+This Project is currently not licensed. It is asked to please reach out to discuss any changes to my email Brennanb572@gmail.com
+
+## Acknowledgements
+
+DomPizzie (https://gist.githubusercontent.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc/raw/d59043abbb123089ad6602aba571121b71d91d7f/README-Template.md)
+
+Flatiron School (https://flatironschool.com/)
+
+FS Group C! 
+
+Piazza (https://piazza.com/)
+
+Additionally, google.com for the images used on the website.
