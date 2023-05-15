@@ -11,9 +11,9 @@ Any version of Google Chrome, Mozilla Firefox or Internet Explore will run this 
 
 ## Installing
 
-No Installation is needed. You can access this website in the link below for quick access:
+No Installation is needed. You can access this website in the link below for quick access: https://github.com/BrennanB572/Phase-1-Project
 
-### Steps to use Vacationeer:
+## Steps to use Vacationeer:
 
 #### 1. Reference travel agencies such as travelocity.com to find your first hotel.
 #### 2. Copy the name and then paste into Vacationeers first input, "Hotel Name."
