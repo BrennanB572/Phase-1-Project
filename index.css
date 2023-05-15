@@ -1,6 +1,7 @@
 html {
     height: 200%;
     width: 100%;
+    background-color:rgba(16, 123, 140, 0.833)
   }
 
 video {
@@ -64,10 +65,10 @@ video {
 }
 
 form {
-    text-align: center;
+ display: flexbox;
 }
 form>input {
-    width: 100%;
+    width: 300px;;
     background-color: rgb(209, 209, 231);
     color:rgb(31, 81, 168);
     cursor: text;
@@ -77,7 +78,7 @@ form>textarea {
     resize:none;
     width: 500px;
     height: 50px;
-    background-color:rgba(82, 82, 122, 0.395);
+    background-color:rgba(82, 82, 122, 0.9);
     color:brown;
 }
 
