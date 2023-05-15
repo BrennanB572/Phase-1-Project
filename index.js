@@ -76,4 +76,4 @@ function initializer(){
   getHotels()
    hotelData.forEach(hotel => renderOneHotel(hotel))
 }
-initializer()
+initializer() 

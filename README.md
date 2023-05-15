@@ -58,4 +58,4 @@ FS Group C!
 
 Piazza (https://piazza.com/)
 
-Additionally, google.com for the images used on the website.
+Additionally, google.com for the images used on the website. 
