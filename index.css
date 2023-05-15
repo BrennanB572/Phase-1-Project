@@ -58,6 +58,12 @@ form>textarea {
     border-radius: 10px;
 }
 
+form>label {
+    color: rgb(176, 179, 190);
+}
+
+/* styling added to form button */
+
 form>button {
     border-radius: 30px;
     width: 190px;
@@ -72,8 +78,4 @@ form>button {
 button:hover {
     background-color:rgb(95, 95, 102);
     color:rgb(126, 172, 212);
-}
-
-form>label {
-    color: rgb(176, 179, 190);
 }
