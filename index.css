@@ -24,7 +24,7 @@ html {
     color: white;
     opacity: 0.7;
 }
-
+/* styling added to the hotel card that populates in the body */
 .hotelcard {
     text-align: center;
     width: 50%;
