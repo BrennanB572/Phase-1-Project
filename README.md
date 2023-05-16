@@ -11,7 +11,7 @@ Any version of Google Chrome, Mozilla Firefox or Internet Explore will run this 
 
 ## Installing
 
-No Installation is needed. You can access this website in the link below for quick access: https://github.com/BrennanB572/Phase-1-Project
+No Installation is needed. You can access this website in the link below for quick access: https://brennanb572.github.io/Phase-1-Project/
 
 ## Steps to use Vacationeer:
 
@@ -37,6 +37,8 @@ Contact me @ brennanb572@gmail.com and include a subject with keyword 'help' and
 
 Brennan Bradley 
 Email: Brennanb572@gmail.com
+GitHub: https://github.com/BrennanB572/
+Blog: 
 Availability: 24/7. Message me any time!
 
 ## Version History

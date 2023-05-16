@@ -1,25 +1,18 @@
 {
   "hotels": [
     {
-      "id": 1,
-      "name": "Holiday Inn & Suites Across From Universal Orlando, an IHG Hotel",
-      "imageUrl": "https://holiday-inn-suites-across-from-universal-orlando.booked.net/data/Photos/OriginalPhoto/12763/1276360/1276360672/Holiday-Inn-Suites-Across-From-Universal-Orlando-Exterior.JPEG",
-      "address": "5916 Caravan Ct, Orlando, FL 32819",
-      "promo": "Luxurious rooms and fantastic room service, located 5 minutes away from Volcano Bay!"
+      "id": 2,
+      "name": "DoubleTree by Hilton Hotel at the Entrance to Universal Orlando",
+      "imageUrl": "https://hi-cdn.t-rp.co.uk/images/hotels/125185/14?width=300&height=200&crop=false",
+      "address": "5780 Major Blvd, Orlando, FL 32819",
+      "promo": "Friendly hospitality and located 3 minutes away from Volcano Bay!"
     },
     {
-        "id": 2,
-        "name": "DoubleTree by Hilton Hotel at the Entrance to Universal Orlando",
-        "imageUrl": "https://hi-cdn.t-rp.co.uk/images/hotels/125185/14?width=300&height=200&crop=false",
-        "address": "5780 Major Blvd, Orlando, FL 32819",
-        "promo": "Friendly hospitality and located 3 minutes away from Volcano Bay!"
-      },
-      {
-        "id": 3,
-        "name": "Wyndham Orlando Resort International Drive",
-        "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2c/e5/1f/wyndham-orlando-resort.jpg?w=700&h=-1&s=1",
-        "address": "8001 International Dr, Orlando, FL 32819",
-        "promo": "Rated #1 in housekeeping services!"
-      }
+      "id": 3,
+      "name": "Wyndham Orlando Resort International Drive",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2c/e5/1f/wyndham-orlando-resort.jpg?w=700&h=-1&s=1",
+      "address": "8001 International Dr, Orlando, FL 32819",
+      "promo": "Rated #1 in housekeeping services!"
+    }
   ]
 }
