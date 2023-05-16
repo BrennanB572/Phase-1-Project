@@ -38,7 +38,7 @@ Contact me @ brennanb572@gmail.com and include a subject with keyword 'help' and
 Brennan Bradley 
 Email: Brennanb572@gmail.com
 GitHub: https://github.com/BrennanB572/
-Blog: 
+Blog: https://medium.com/@brennanb572/flatiron-phase-1-ending-blog-github-slowly-processing-git-push-8777161b0a27
 Availability: 24/7. Message me any time!
 
 ## Version History
